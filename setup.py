@@ -20,12 +20,12 @@ REQUIREMENTS_PATH = ROOT_PATH / 'requirements.txt'
 #REQUIREMENTS_RQ_PATH = ROOT_PATH / 'requirement' / 'extras-rq.txt'
 
 setup(
-    name='mno_final',
+    name='covid_cdmx_daily',
     version='0.1.0',
-    description='Final Project for MNO',
+    description='Paquetería para hacer análisis sobre SARS-CoV-2 en la ciudad de México',
     long_description=README_PATH.read_text(),
     long_description_content_type="text/markdown",
-    author='teams 6 and 8',
+    author='Angel Rafael Ortega Ramírez',
     packages=find_packages('src'),
     package_dir={'': 'src'},
     include_package_data=True,
